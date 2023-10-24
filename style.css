@@ -194,14 +194,13 @@ padding: 10px;
 }
 
 .project-card img{
+  height: 500px;
   transition: 0.7s ease;
 }
 .project-card :hover{
   transform: scale(1.1);
 }
-.project-card img{
-  height: 500px;
-}
+
 
 .footer{
   background-color: #000016;
@@ -259,6 +258,8 @@ padding: 10px;
   body{
   font-size: 12px;
   }
+  .project-card img{
+    height: 250px;
 
   .main-content h2{
       font-size: 0.8em;
