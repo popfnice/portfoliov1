@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
@@ -8,9 +8,7 @@
   scroll-behavior: smooth;
 }
 
-
-
-header{
+header {
   background-color: #f0f0f0;
   width: 100%;
   position: fixed;
@@ -21,20 +19,21 @@ header{
   padding: 10px 20px;
 }
 
-.logo{
+.logo {
   text-decoration: none;
   color: #3a6cf4;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 1.8em;
 }
-.logo:hover{
+
+.logo:hover {
   transform: scale(1.1);
   transition: 1s;
   color: #601cfc;
 }
 
-.navigation a{
+.navigation a {
   color: #3a6cf4;
   text-decoration: none;
   font-size: 1.1em;
@@ -42,36 +41,31 @@ header{
   padding-left: 30px;
 }
 
-.navigation a:hover{
+.navigation a:hover {
   color: #601cfc;
 }
 
-.navigation:hover{
-  transform: scale(1.1);
-  transition: transform 0.5s ease-in-out ;
-}
-
-section{
+section {
   padding: 100px 200px;
 }
 
-.main{
+.main {
   width: 100%;
   min-height: 100vh;
   display: flex;
   align-items: center;
-  text-transform: uppercase;
   background: url(image/image1.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
-.main h2{
+
+.main h1 {
   color: #f0f0f0;
   font-size: 1.4em;
-  font-size: 500;
 }
-.main h2 span{
+
+.main h1 {
   display: inline-block;
   margin-top: 10px;
   color: #4e9eff;
@@ -79,7 +73,7 @@ section{
   font-weight: 600;
 }
 
-.main h3{
+.main h3 {
   color: #fff;
   font-size: 2em;
   font-weight: 700;
@@ -93,32 +87,31 @@ section{
   background-color: #3a6cf4;
   text-decoration: none;
   font-size: 1.1em;
-  font-weight:600 ;
+  font-weight: 600;
   display: inline-block;
   padding: 0.9378em 2.18em;
   letter-spacing: 1px;
   border-radius: 15px;
+  /* Ajouté - Ajout de la propriété border-radius */
   margin-bottom: 40px;
-  transition: 0.7s ease;
+  transition: 0.7s;
 }
 
-.main-btn:hover{
+.main-btn:hover {
   background-color: #0a49f6;
   transform: scale(1.1);
-
 }
 
 .social-icon a {
   color: #fff;
   font-size: 1.7em;
   padding-right: 30px;
-  padding: 30px;
   transition: 0.7s;
 }
-.social-icon:hover{
-  transition: 0.7s;
-  transform: scale(1.1)
 
+.social-icon:hover {
+  transition: 0.7s;
+  transform: scale(1.1);
 }
 
 .title {
@@ -140,21 +133,22 @@ section{
 .card {
   background-color: #fff;
   width: 21.25em;
-  box-shadow: 0 5px 25px rgba(1 1 1 / 25%);
+  box-shadow: 0 5px 25px rgba(1, 1, 1, 25%);
+  /* Ajouté - Ajout de la propriété box-shadow */
   border-radius: 10px;
+  /* Ajouté - Ajout de la propriété border-radius */
   padding: 25px;
   margin: 15px;
-  transition: 0.7s ease;
+  transition: 0.7s;
 }
 
-.card:hover{
+.card:hover {
   background-color: beige;
   transform: scale(1.1);
-
 }
 
 .icon {
-  color:#E65100;
+  color: #E65100;
   font-size: 8em;
   text-align: center;
 }
@@ -170,6 +164,7 @@ section{
   font-size: 8em;
   text-align: center;
 }
+
 .icon3 {
   color: #FCB900;
   font-size: 8em;
@@ -185,124 +180,116 @@ section{
 .info h3 {
   color: #3a6cf4;
   font-size: 1.2em;
-  font-size: 700;
   margin: 10px;
 }
-.info{  
-text-align: center;
-padding: 10px;
+
+.icon5 {
+  color: #cc6699;
+  font-size: 8em;
+  text-align: center;
 }
 
-.content1{
+.info {
+  text-align: center;
+  padding: 10px;
+}
+
+.content1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 20px;
 }
 
-.project-card img{
+.project-card img {
   height: 350px;
-  transition: 0.7s ease;
+  transition: 0.7s;
 }
-.project-card img:hover{
+
+.project-card img:hover {
   transform: scale(1.1);
 }
 
-
-.project-card a{
+.project-card a {
   display: flex;
   width: auto;
   justify-content: center;
   flex-direction: column;
   text-decoration: none;
   color: #000016;
-
 }
 
-.project-description{
- text-decoration: none;
-  text-transform: none;
+.project-description {
   gap: 30px;
-  
 }
 
+.skills{
+  padding-top: 40px;
+}
+.icon-skills{
+  display: flex;
+  justify-content:space-evenly;
+  flex-direction: row;
+  padding-top: 10px;
+}
+.icon-skills i{
+  font-size: 50px ;
+}
 
-
-
-.footer{
+.footer {
   background-color: #000016;
   color: #fff;
   padding: 2em;
   display: flex;
   justify-content: space-between;
-  justify-items: flex-start;
 }
 
-.footer-title{
+.footer-title {
   font-size: 1.3em;
   font-weight: 600;
-  
 }
 
-.footer-title span{
+.footer-title span {
   color: #3a6cf4;
-
 }
 
-@media (max-width:1023px){
-  header{
-  padding: 12px 20px;
+@media (max-width: 1023px) {
+  header {
+    padding: 12px 20px;
   }
 
-  .navigation a{
-   padding-left: 10px;
+  .navigation a {
+    padding-left: 10px;
   }
 
-  .title{
-  font-size: 1.8em;
+  .title {
+    font-size: 1.8em;
   }
 
-  section{
-  padding: 80px 20px;
+  section {
+    padding: 80px 20px;
   }
 
-  .main-content h2{
-   font-size: 1em;
+  .main h1 {
+    font-size: 1em;
   }
 
-  .main-content h3{
-  font-size: 1.6em;
+  .main h3 {
+    font-size: 1.6em;
   }
 
-  .content{
-  flex-direction: column;
-  align-items: center;
-  }
-  .content1{
+  .content {
     flex-direction: column;
     align-items: center;
-    }
+  }
 }
 
-@media (max-width:641px){
-  body{
-  font-size: 12px;
+@media (max-width: 641px) {
+  body {
+    font-size: 12px;
   }
-  .project-card img{
+
+  .project-card img {
     height: 250px;
-
-  .main-content h2{
-      font-size: 0.8em;
-  }
-
-  .main-content h3{
-      font-size: 1.4em;
-  }
-}
-
-@media (max-width:300px){
-  body{
-      font-size: 10px;
-   
   }
 }
