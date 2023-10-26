@@ -193,13 +193,40 @@ text-align: center;
 padding: 10px;
 }
 
+.content1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
 .project-card img{
-  height: 500px;
+  height: 350px;
   transition: 0.7s ease;
 }
-.project-card :hover{
+.project-card img:hover{
   transform: scale(1.1);
 }
+
+
+.project-card a{
+  display: flex;
+  width: auto;
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: #000016;
+
+}
+
+.project-description{
+ text-decoration: none;
+  text-transform: none;
+  gap: 30px;
+  
+}
+
+
 
 
 .footer{
@@ -251,7 +278,10 @@ padding: 10px;
   flex-direction: column;
   align-items: center;
   }
-
+  .content1{
+    flex-direction: column;
+    align-items: center;
+    }
 }
 
 @media (max-width:641px){
